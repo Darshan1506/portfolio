@@ -1,0 +1,35 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.appDiv{
+  height: 100vh;
+  width: 100vw;
+}
+.myPara {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white; /* Set the text color to white */
+  text-align: center;
+  animation: blinkText 2s infinite;
+}
+
+@keyframes blinkText {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #f5b921;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
