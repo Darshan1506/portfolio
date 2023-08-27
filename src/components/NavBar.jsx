@@ -84,9 +84,11 @@ function NavBar() {
             {/* Add the download button here */}
             <li className="nav-item">
               <a
-                href="https://drive.google.com/file/d/1w060TBjaaJdSc5ZUONbdpMbHXIJtMIsQ/view?usp=sharing" // Replace with the actual path to your resume file
+                href="https://drive.google.com/file/d/1ypl0vWpcCc2nSsh3ViQThsndRSetfG9a/view?usp=sharing" // Replace with the actual path to your resume file
                 download
                 className="nav-links nav-resume-button"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={handleClick}
               >
                 Resume
