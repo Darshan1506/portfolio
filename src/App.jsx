@@ -19,7 +19,7 @@ function App() {
     // Set a timeout to hide the loading spinner after 3 seconds
     const loadingTimer = setTimeout(() => {
       setShowLoading(false);
-    }, 5000);
+    }, 10000);
 
     // Clear the timeouts when the component is unmounted
     return () => {
